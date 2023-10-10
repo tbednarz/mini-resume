@@ -6,10 +6,12 @@ import "../index.css";
 
 const WholeCard = () => {
 	return (
-		<div id="whole-card">
-			<TopThird />
-			<MiddleThird />
-			<BottomThird />
+		<div>
+			<div id="whole-card">
+				<TopThird />
+				<MiddleThird />
+				<BottomThird />
+			</div>
 		</div>
 	);
 };

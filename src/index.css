@@ -13,21 +13,18 @@ code {
 	flex-direction: column;
 }
 #whole-card {
-	position: relative;
 	width: 750px;
-	height: 350px;
 	background-color: grey;
 	border-radius: 15px;
-	padding: 5px;
-	overflow: hidden;
+	
 }
 
 #middle-third-box {
 	display: flex;
+	min-height: 125px;
 	flex-direction: row;
 	width: inherit;
-	margin: 50px 10px 10px 10px;
-	padding: 20px 0 20px 0;
+
 	justify-content: space-evenly;
 	overflow: auto;
 }
@@ -50,17 +47,16 @@ code {
 	border-radius: 10px;
 	padding: 10px;
 	height: 0 auto;
-	width: 300px;
+	max-width: 300px;
+	min-width: 150px;
 	overflow: hidden;
 }
 
 #bottom-third-box {
-	position: absolute;
-	width: 100%;
-	background-color: blue;
-	bottom: 0;
-	left: 0;
-	margin: 50px 0 0 0;
+	width: 750px;
+	background-color: rgb(174, 174, 212);
+	border-radius: 0 0 15px 15px;
+
 }
 
 #link-list {

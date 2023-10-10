@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./topthird.css";
 
 const TopThird = () => {
-	const [firstName, setFirstName] = useState("Tres Bednarz");
-	const [jobTitle, setJobTitle] = useState("Sofware Developer");
+	const [firstName, setFirstName] = useState("Insert Name");
+	const [jobTitle, setJobTitle] = useState("Job Title");
 	const firstNameChange = (e) => {
 		setFirstName(e.target.value);
 	};
